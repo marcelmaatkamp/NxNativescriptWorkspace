@@ -1,0 +1,2 @@
+# NxNativescriptWorkspace
+NxNativescriptWorkspace
