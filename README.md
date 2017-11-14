@@ -2,8 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0 using [Nrwl Nx](https://nrwl.io/nx).
 
-
-## AppStore presence
+## Google Playstore and iOS applications
 
 | OS | Link | 
 | -- | -- |
