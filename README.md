@@ -2,6 +2,45 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0 using [Nrwl Nx](https://nrwl.io/nx).
 
+ * https://nrwl.io/nx/guide-getting-started
+ * https://github.com/nrwl/nx
+ * https://github.com/NathanWalker/template-nativescript-nx
+
+The steps I took to create this workspace and build the application for the Google Playstore: 
+
+```
+Install the workspace with the stable version:
+
+$ curl -fsSL https://raw.githubusercontent.com/nrwl/nx/master/packages/install/install.sh |\
+  bash -s NxNativescriptWorkspace
+
+OR install the 'unstable' branch:
+  
+$ curl -fsSL https://raw.githubusercontent.com/nrwl/nx/master/packages/install/install-next.sh |\
+  bash -s NxNativescriptWorkspace
+  
+$ cd NxNativescriptWorkspace 
+$ yarn install
+$ cd apps
+$ tns create mobile-app-name --template https://github.com/NathanWalker/template-nativescript-nx
+$ cd mobile-app-name
+$ yarn install
+$ ANDROID_HOME=/Users/marcel/Library/Android/sdk tns prepare android
+$ ANDROID_HOME=/Users/marcel/Library/Android/sdk tns build android
+$ ANDROID_HOME=/Users/marcel/Library/Android/sdk tns run android
+```
+
+The steps I took to publish this sample application to the Google Playstore:
+```
+$ keytool -genkey -v -keystore keystore.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-alias
+$ ANDROID_HOME=/Users/marcel/Library/Android/sdk tns build android \
+   --release \
+   --key-store-path ./keystore.jks \
+   --key-store-alias my-alias \
+   --key-store-password <<PASSWORD>> \
+   --key-store-alias-password <<PASSWORD>>
+```
+
 ## Nrwl Extensions for Angular (Nx)
 
 <a href="https://nrwl.io/nx"><img src="https://preview.ibb.co/mW6sdw/nx_logo.png"></a>
