@@ -1,3 +1,4 @@
 platforms/
 node_modules/
-report/
+report
+.DS_Store
