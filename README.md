@@ -10,15 +10,6 @@ Nx is an open source toolkit for enterprise Angular applications.
 
 Nx is designed to help you create and build enterprise grade Angular applications. It provides an opinionated approach to application project structure and patterns.
 
-## Google Playstore and iOS applications
-
-I have submitted this sample application in the appstore:
-
-| OS | Link | 
-| -- | -- |
-| Android | <a href="https://play.google.com/store/apps/details?id=org.nativescript.mobileappname"><img src="https://raw.githubusercontent.com/marcelmaatkamp/NxNativescriptWorkspace/master/.github/google_playstore_screenshot.png" width="250" ></a><br /> https://play.google.com/store/apps/details?id=org.nativescript.mobileappname|
-| iOS | <a href=""><img src="" width="250" ></a><br />| 
-
 ## Quick Start & Documentation
 
 [Watch a 5-minute video on how to get started with Nx.](http://nrwl.io/nx)
@@ -47,6 +38,15 @@ Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.
 
 Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
 Before running the tests make sure you are serving the app via `ng serve`.
+
+## Google Playstore and iOS applications
+
+I have submitted this sample application in the appstore:
+
+| OS | Link | 
+| -- | -- |
+| Android | <a href="https://play.google.com/store/apps/details?id=org.nativescript.mobileappname"><img src="https://raw.githubusercontent.com/marcelmaatkamp/NxNativescriptWorkspace/master/.github/google_playstore_screenshot.png" width="250" ></a><br /> https://play.google.com/store/apps/details?id=org.nativescript.mobileappname|
+| iOS | <a href=""><img src="" width="250" ></a><br />| 
 
 ## Further help
 
