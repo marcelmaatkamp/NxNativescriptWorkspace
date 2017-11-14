@@ -2,6 +2,14 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0 using [Nrwl Nx](https://nrwl.io/nx).
 
+
+## AppStore presence
+
+| OS | Link | 
+| -- | -- |
+| Android | <a href="https://play.google.com/store/apps/details?id=org.nativescript.mobileappname"><img src="" width="250" ></a><br /> https://play.google.com/store/apps/details?id=org.nativescript.mobileappname|
+| iOS | <a href=""><img src="" width="250" ></a><br />| 
+
 ## Nrwl Extensions for Angular (Nx)
 
 <a href="https://nrwl.io/nx"><img src="https://preview.ibb.co/mW6sdw/nx_logo.png"></a>
