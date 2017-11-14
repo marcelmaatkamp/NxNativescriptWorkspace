@@ -2,13 +2,6 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.0 using [Nrwl Nx](https://nrwl.io/nx).
 
-## Google Playstore and iOS applications
-
-| OS | Link | 
-| -- | -- |
-| Android | <a href="https://play.google.com/store/apps/details?id=org.nativescript.mobileappname"><img src="https://raw.githubusercontent.com/marcelmaatkamp/NxNativescriptWorkspace/master/.github/google_playstore_screenshot.png" width="250" ></a><br /> https://play.google.com/store/apps/details?id=org.nativescript.mobileappname|
-| iOS | <a href=""><img src="" width="250" ></a><br />| 
-
 ## Nrwl Extensions for Angular (Nx)
 
 <a href="https://nrwl.io/nx"><img src="https://preview.ibb.co/mW6sdw/nx_logo.png"></a>
@@ -16,6 +9,15 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 Nx is an open source toolkit for enterprise Angular applications.
 
 Nx is designed to help you create and build enterprise grade Angular applications. It provides an opinionated approach to application project structure and patterns.
+
+## Google Playstore and iOS applications
+
+I have submitted this sample application in the appstore:
+
+| OS | Link | 
+| -- | -- |
+| Android | <a href="https://play.google.com/store/apps/details?id=org.nativescript.mobileappname"><img src="https://raw.githubusercontent.com/marcelmaatkamp/NxNativescriptWorkspace/master/.github/google_playstore_screenshot.png" width="250" ></a><br /> https://play.google.com/store/apps/details?id=org.nativescript.mobileappname|
+| iOS | <a href=""><img src="" width="250" ></a><br />| 
 
 ## Quick Start & Documentation
 
