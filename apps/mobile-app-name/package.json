@@ -4,7 +4,7 @@
   "readme": "NativeScript Application",
   "repository": "<fill-your-repository-here>",
   "nativescript": {
-    "id": "org.nativescript.mobileappname",
+    "id": "org.nativescript.workspace",
     "tns-android": {
       "version": "3.3.1"
     },
@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "@angular/animations": "file:../../node_modules/@angular/animations",
+    "@angular/cli": "^1.5.0",
     "@angular/common": "file:../../node_modules/@angular/common",
     "@angular/compiler": "file:../../node_modules/@angular/compiler",
     "@angular/core": "file:../../node_modules/@angular/core",
@@ -36,12 +37,12 @@
   },
   "devDependencies": {
     "@angular/compiler-cli": "file:../../node_modules/@angular/core",
-    "@ngtools/webpack": "~1.7.4",
+    "@ngtools/webpack": "^1.8.0",
     "angular-router-loader": "~0.6.0",
     "babel-traverse": "6.26.0",
     "babel-types": "6.26.0",
     "babylon": "6.18.0",
-    "copy-webpack-plugin": "~4.2.0",
+    "copy-webpack-plugin": "~4.0.1",
     "extract-text-webpack-plugin": "~3.0.0",
     "lazy": "1.0.11",
     "nativescript-css-loader": "~0.26.0",
@@ -52,9 +53,9 @@
     "raw-loader": "~0.5.1",
     "resolve-url-loader": "~2.1.0",
     "tns-platform-declarations": "next",
-    "typescript": "file:../../node_modules/typescript",
-    "webpack": "~3.8.1",
-    "webpack-bundle-analyzer": "~2.9.0",
+    "typescript": "~2.3.4",
+    "webpack": "~3.2.0",
+    "webpack-bundle-analyzer": "^2.8.2",
     "webpack-parallel-uglify-plugin": "~1.0.0",
     "webpack-sources": "~1.0.1"
   },
