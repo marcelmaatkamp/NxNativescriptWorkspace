@@ -57,6 +57,23 @@ $ ANDROID_HOME=/Users/marcel/Library/Android/sdk tns build android \
    --key-store-alias-password <<PASSWORD>>
 ```
 
+## iOS
+
+See discussion https://github.com/NativeScript/nativescript-cli/issues/2716
+
+mobileapp: 
+ package.json: webpack -> 1.8.0
+ AotCompiler -> AngularCompilerPlugin
+ 
+npm install @ngtools/webpack@1.8.0
+npm install
+node_modules/.bin/update-ns-webpacka
+npm install
+
+```
+$ npm install
+$ npm run build-ios-bundle -- --release --for-device
+```
 
 ## Development server
 
