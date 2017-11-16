@@ -20,8 +20,6 @@ Nx is designed to help you create and build enterprise grade Angular application
 
 ## Generate your first application
 
-Run `ng generate app myapp` to generate an application. When using Nx, you can create multiple applications and libraries in the same CLI workspace. Read more [here](http://nrwl.io/nx).
-
 The steps I took to create this workspace and build the application for the Google Playstore: 
 
 ```
@@ -56,6 +54,10 @@ $ ANDROID_HOME=/Users/marcel/Library/Android/sdk tns build android \
    --key-store-password <<PASSWORD>> \
    --key-store-alias-password <<PASSWORD>>
 ```
+
+I have submitted this sample application to proof that NxNative with Angular5 is indeed capable of producing an apk which can be subitted in the Google Playstore:
+
+<a href="https://play.google.com/store/apps/details?id=org.nativescript.mobileappname"><img src="https://raw.githubusercontent.com/marcelmaatkamp/NxNativescriptWorkspace/master/.github/google_playstore_screenshot.png" width="250" ></a><br /> https://play.google.com/store/apps/details?id=org.nativescript.mobileappname
 
 ## iOS
 
