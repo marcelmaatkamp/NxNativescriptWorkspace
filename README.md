@@ -65,11 +65,15 @@ mobileapp:
  package.json: webpack -> 1.8.0
  AotCompiler -> AngularCompilerPlugin
  
-npm install @ngtools/webpack@1.8.0
+```
+npm install -save @ngtools/webpack@1.8.0
+npm install -save @angular/cli@1.5.0
 npm install
 node_modules/.bin/update-ns-webpacka
 npm install
+```
 
+and 
 ```
 $ npm install
 $ npm run build-ios-bundle -- --release --for-device
