@@ -78,14 +78,20 @@ npm install
 ```
 
 and 
+
 ```
 $ npm install
 $ npm run build-ios-bundle -- --release --for-device
 ```
 
 ```
-$ tns appstore upload m.maatkamp@gmail.com dvov-jzxm-bbbz-twbc e389cb52-557d-497d-a80c-e96dab78e044 "org.nativescript.workspace"
+$ tns appstore upload m.maatkamp@gmail.com \
+   dvov-jzxm-bbbz-twbc e389cb52-557d-497d-a80c-e96dab78e044 "org.nativescript.workspace"
 ```
+
+iPhone X
+iPhone 6 Plus
+iPad air 2
 
 ## Development server
 
