@@ -37,15 +37,16 @@ $ cd NxNativescriptWorkspace
 $ yarn install
 $ cd apps
 $ tns create mobile-app-name --template https://github.com/NathanWalker/template-nativescript-nx
+```
+
+The outcome of those steps are what I commited in this Github repository and the following are the steps I took to build publish this sample application to the Google Playstore:
+
+```
 $ cd mobile-app-name
 $ yarn install
 $ ANDROID_HOME=/Users/marcel/Library/Android/sdk tns prepare android
 $ ANDROID_HOME=/Users/marcel/Library/Android/sdk tns build android
 $ ANDROID_HOME=/Users/marcel/Library/Android/sdk tns run android
-```
-
-The steps I took to publish this sample application to the Google Playstore:
-```
 $ keytool -genkey -v -keystore keystore.jks -keyalg RSA -keysize 2048 -validity 10000 -alias my-alias
 $ ANDROID_HOME=/Users/marcel/Library/Android/sdk tns build android \
    --release \
