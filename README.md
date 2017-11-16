@@ -57,6 +57,35 @@ $ ANDROID_HOME=/Users/marcel/Library/Android/sdk tns build android \
    --key-store-alias-password <<PASSWORD>>
 ```
 
+## iOS
+
+See discussions:
+
+ * https://github.com/NativeScript/nativescript-cli/issues/2716
+ * https://github.com/angular/angular-cli/issues/4551
+ * https://github.com/angular/angular-cli/issues/7151
+
+mobileapp: 
+ package.json: webpack -> 1.8.0
+ AotCompiler -> AngularCompilerPlugin
+ 
+```
+npm install -save @ngtools/webpack@1.8.0
+npm install -save @angular/cli@1.5.0
+npm install
+node_modules/.bin/update-ns-webpack
+npm install
+```
+
+and 
+```
+$ npm install
+$ npm run build-ios-bundle -- --release --for-device
+```
+
+```
+$ tns appstore upload m.maatkamp@gmail.com dvov-jzxm-bbbz-twbc e389cb52-557d-497d-a80c-e96dab78e044 "org.nativescript.workspace"
+```
 
 ## Development server
 
