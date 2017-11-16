@@ -91,7 +91,7 @@ $ tns appstore upload m.maatkamp@gmail.com \
 
 iPhone X
 iPhone 6 Plus
-iPad air 2
+iPad Pro 12.
 
 ## Development server
 
