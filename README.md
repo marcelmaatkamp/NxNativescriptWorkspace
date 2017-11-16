@@ -82,16 +82,18 @@ and
 ```
 $ npm install
 $ npm run build-ios-bundle -- --release --for-device
-```
-
-```
+$ tns prepare ios
+$ tns build ios
 $ tns appstore upload m.maatkamp@gmail.com \
    dvov-jzxm-bbbz-twbc e389cb52-557d-497d-a80c-e96dab78e044 "org.nativescript.workspace"
 ```
 
-iPhone X
-iPhone 6 Plus
-iPad Pro 12.
+Take screenshots from the following devices in Xcode:
+ * iPhone X
+ * iPhone 6 Plus
+ * iPad Pro 12.
+ 
+Submit for review and publish application in itunesconnect.
 
 ## Development server
 
