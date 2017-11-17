@@ -68,6 +68,17 @@ See discussions:
  * https://github.com/angular/angular-cli/issues/4551
  * https://github.com/angular/angular-cli/issues/7151
 
+Automatic signing
+Set TEAM_ID in build.xcconfig file or pass it as argument:
+`tns run ios --team-id <TEAM_ID>`
+
+Manual signing
+It can not be specified in config file and you should pass it as argument:
+`tns run ios --provisioning <PROVISIONING PROFILE>`
+
+You can list availalbe provisining profiles and teams on yhour machine when you leave --provisining empty, for example:
+`tns build ios --release --for-device --provision`
+
 ```
 $ yarn install
 $ cd apps/mobile-app-name
