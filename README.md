@@ -68,9 +68,18 @@ See discussions:
  * https://github.com/angular/angular-cli/issues/4551
  * https://github.com/angular/angular-cli/issues/7151
 
-mobileapp: 
- package.json: webpack -> 1.8.0
- AotCompiler -> AngularCompilerPlugin
+```
+$ yarn install
+$ cd apps/mobile-app-name
+$ tns appstore upload m.maatkamp@gmail.com \
+   dvov-jzxm-bbbz-twbc e389cb52-557d-497d-a80c-e96dab78e044 "org.nativescript.workspace"
+```
+
+TODO: These steps for npm compile?
+
+* mobileapp: 
+ * package.json: webpack -> 1.8.0
+ * AotCompiler -> AngularCompilerPlugin
  
 ```
 npm install -save @ngtools/webpack@1.8.0
